@@ -295,12 +295,12 @@ footer {
 }
 .section-title {
   font-size: 55px;
-  display: inline-block;
   padding-bottom: 20px;
   text-align: center;
   border-bottom: 3px solid;
-  margin-bottom: 0 auto 35px auto;
+  margin: 0 auto 35px auto;
   color: #024e76;
+  width:50%;
 }
 .contact {
   
@@ -348,6 +348,24 @@ footer {
   font-style: normal;
 }
 .contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+display: block;
+padding: 7px 15px;
+font-size: 16px;
+color: #024e76;
+width: 100%;
+margin-bottom: 15px;
+margin-top: 5px;
+}
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fcd138;
+  color : #024e76;
+  text-align: center ;
+  padding: 15px 0;
+  font-size: 16px;
+}a {
   border: 1px solid #024e76;
 display: block;
 padding: 7px 15px;
